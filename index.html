@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Bus</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="nav-bar">
+    <a href="./index.html" class="nav-logo">  Joy Bus</a>
+    <p> Contact Us: +02 3456 678</p>
+  </div>
+  <div class="hero">
+    <p>Welcome aboard! Plan your journey and book your tickets with ease using our Bus Ticketing System, Joy Bus – your gateway to seamless travel.<br></p>
+    <section id="book" class="section">
+      <h2> Book your Ticket </h2> <br>
+      <form id="booking-form">
+          <label for="departure"> Departure Location: </label>
+          <div class="dropdown-container">
+              <select id="departure" name="departure" required>
+                  <option value="">Select Departure Location</option>
+                  <option value="Manila">Manila</option>
+                  <option value="Baguio">Baguio</option>
+                  <option value="La Union">La Union</option>
+              </select>
+          </div>
+
+          <label for="arrival"> Arrival Location: </label>
+          <div class="dropdown-container">
+              <select id="arrival" name="arrival" required>
+                  <option value="">Select Arrival Location</option>
+                  <option value="Manila">Manila</option>
+                  <option value="Baguio">Baguio</option>
+                  <option value="La Union">La Union</option>
+              </select>
+          </div>
+
+          <label for="date"> Travel Date: </label>
+          <input type="date" id="date" name="date" required><br> <br>
+
+          <a href="./pages/page1/index.html">
+            <button type="button">Submit</button>
+          </a>
+          
+      </form>
+  </section>
+  </div>
+  <footer> Joy Bus. All Rights Reserved 2025. </footer>
+  <script src="./assets/js/script.js"> </script>
+</body>
+</html>
