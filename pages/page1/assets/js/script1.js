@@ -168,7 +168,6 @@
 					})(seatChartsSettings.seats, fn.settings.character, fn);
 							
 					fn.node()
-						//the first three mouse events are simple
 						.on('click',      fn.click)
 						.on('mouseenter', fn.focus)
 						.on('mouseleave', fn.blur)
@@ -192,13 +191,7 @@
 									case 38:
 										e.preventDefault();
 										
-										/*
-										 * This is a recursive, immediate function which searches for the first "focusable" row.
-										 * 
-										 * We're using immediate function because we want a convenient access to some DOM elements
-										 * We're using recursion because sometimes we may hit an empty space rather than a seat.
-										 *
-										 */
+								
 										$newSeat = (function findAvailable($rows, $seats, $currentRow) {
 											var $newRow;
 											
@@ -357,23 +350,6 @@
 				);
 			}
 
-			/*
-			 * Do this for each seat (letter)
-			 *
-			 * Now users will be able to pass custom ID and label which overwrite the one that seat would be assigned by getId and
-			 * getLabel
-			 *
-			 * New format is like this:
-			 * a[ID,label]a[ID]aaaaa
-			 *
-			 * So you can overwrite the ID or label (or both) even for just one seat.
-			 * Basically ID should be first, so if you want to overwrite just label write it as follows:
-			 * a[,LABEL]
-			 *
-			 * Allowed characters in IDs areL 0-9, a-z, A-Z, _
-			 * Allowed characters in labels are: 0-9, a-z, A-Z, _, ' ' (space)
-			 *
-			 */
 			 
 			$.each(characters.match(/[a-z_]{1}(\[[0-9a-z_]{0,}(,[0-9a-z_ ]+)?\])?/gi), function (column, characterParams) { 
 				var matches         = characterParams.match(/([a-z_]{1})(\[([0-9a-z_ ,]+)\])?/i),
