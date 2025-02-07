@@ -26,8 +26,8 @@ function showTicketPopup(customerDetails, selectedSeats, totalAmount) {
         <p><strong>Email:</strong> ${customerDetails.email}</p>
         <p><strong>Contact Number:</strong> ${customerDetails.number}</p>
         <p><strong>Date & Time:</strong> ${currentDateTime}</p>
-        <p><strong>Seats Reserved:</strong> ${seatDetails}</p>
-        <p><strong>Total Amount Paid:</strong> ${totalAmount}</p>
+        <p><strong>Seat/s Reserved:</strong> ${seatDetails}</p>
+        <p><strong>Total Amount Paid: </strong> ${totalAmount}</p>
         <button id="close-popup">Close</button>
     `;
 
