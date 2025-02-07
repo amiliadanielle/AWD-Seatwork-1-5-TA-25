@@ -16,7 +16,7 @@ div.seatCharts-cell {
 
 }
 div.seatCharts-seat {
-	background-color: green;
+	background-color: rgb(3, 118, 3);
 	color: white;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
