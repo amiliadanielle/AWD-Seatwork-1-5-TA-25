@@ -28,7 +28,7 @@ $(document).ready(function () {
             ],
             seats: {
                 f: {
-                    price: 850,
+                    price: 950,
                     classes: 'first-class',
                     category: 'First Class'
                 },
