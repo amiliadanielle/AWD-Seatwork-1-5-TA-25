@@ -32,7 +32,7 @@ div.seatCharts-seat:focus {
 }
 
 div.seatCharts-space {
-	background-color: white;
+	background-color: rgb(246, 240, 240);
 }
 div.seatCharts-row {
 	height: 50px;
@@ -51,7 +51,7 @@ div.seatCharts-seat.focused {
 }
 
 div.seatCharts-seat.available {
-	background-color: green;
+	background-color: rgb(1, 126, 1);
 }
 
 div.seatCharts-seat.unavailable {

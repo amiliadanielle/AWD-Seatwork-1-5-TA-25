@@ -51,7 +51,7 @@ div.seatCharts-seat.focused {
 }
 
 div.seatCharts-seat.available {
-	background-color: green;
+	background-color: rgb(2, 123, 2);
 }
 
 div.seatCharts-seat.unavailable {
