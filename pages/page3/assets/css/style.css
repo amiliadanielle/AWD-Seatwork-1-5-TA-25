@@ -450,7 +450,6 @@ li.seatCharts-legendItem {
     font-size: 16px;
 }
 
-/* Close Button Style (Optional, for closing the pop-up) */
 .popup-overlay .close-btn {
     position: absolute;
     top: 10px;

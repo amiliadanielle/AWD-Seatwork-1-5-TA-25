@@ -32,7 +32,7 @@ h2 {
     background-color: rgb(202, 59, 59);
     top: 0;
     left: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(21, 21, 21, 0.1);
     display: flex;
     color: white;
     align-items: center;
