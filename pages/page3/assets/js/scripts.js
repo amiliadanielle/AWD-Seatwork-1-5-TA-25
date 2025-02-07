@@ -221,7 +221,6 @@ $(document).ready(function () {
                 const expirationDate = document.getElementById('expiration-date').value;
                 const cvc = document.getElementById('cvc').value;
 
-                // Validate card details (simple check for illustration)
                 if (!cardNumber || !expirationDate || !cvc) {
                     alert('Please enter valid card details.');
                     return;

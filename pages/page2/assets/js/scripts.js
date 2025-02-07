@@ -54,7 +54,7 @@ $(document).ready(function () {
             },
             click: function () {
                 if (this.status() == 'available') {
-                    $('<li>' + this.data().category + ' Seat # ' + this.settings.label + ': <b>$' + this.data().price + '</b> <a href="#" class="cancel-cart-item">[cancel]</a></li>')
+                    $('<li>' + this.data().category + ' Seat # ' + this.settings.label + ': <b>₱' + this.data().price + '</b> <a href="#" class="cancel-cart-item">[cancel]</a></li>')
                         .attr('id', 'cart-item-' + this.settings.id)
                         .data('seatId', this.settings.id)
                         .appendTo($cart);
@@ -104,7 +104,6 @@ $(document).ready(function () {
         bookedSeats[currentBus] = bookedSeats[currentBus].concat(selected);
         localStorage.setItem('booked' + currentBus.charAt(0).toUpperCase() + currentBus.slice(1), JSON.stringify(bookedSeats[currentBus]));
 
-        // Show customer information form first
         showCustomerForm(selected, recalculateTotal($('#bus-seat-map').seatCharts()));
     });
 
