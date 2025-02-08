@@ -63,13 +63,13 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
+- What is the project -
 Joy Bus Ticketing System is a web platform for booking bus tickets, allowing users to select seats from three buses, enter customer details, and receive ticket confirmations. Built with HTML, CSS, and JavaScript, it offers a simple and efficient booking experience.
-- Whats the purpose
+- Whats the purpose -
 To simplify and digitize bus seat reservation and booking.
-- What are key components
+- What are key components -
 Intercative seat selection, booking form and digital ticket generation.
-- What technology used and how it is used
+- What technology used and how it is used -
 The Joy Bus Ticketing System uses HTML for structure, CSS for styling, and JavaScript for interactive features like seat selection and ticket popups.
 
 ### Key Components
