@@ -522,7 +522,7 @@
 				})();
 				
 			},
-			set        : function set() {//inherits some methods
+			set        : function set() {
 				var fn = this;
 				
 				return {

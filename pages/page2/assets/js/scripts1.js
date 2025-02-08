@@ -237,7 +237,6 @@
 											$seat.parents('.seatCharts-row:not(.seatCharts-header)')
 										);
 										
-										//we couldn't determine the new seat, so we better give up
 										if (!$newSeat.length) {
 											return;
 										}
