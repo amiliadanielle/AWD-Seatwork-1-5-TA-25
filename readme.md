@@ -6,21 +6,22 @@
 <div align="center">
   <a href="https://github.com/amiliadanielle/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/joybus-removebg-preview.png" alt="Joy Bus" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Joy Bus</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+    A user-friendly online bus ticketing system featuring three buses for easy reservations.
+
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=amiliadanielle/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=amiliadanielle/AWD-Seatwork-1-5-TA-25)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -63,16 +64,22 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+Joy Bus Ticketing System is a web platform for booking bus tickets, allowing users to select seats from three buses, enter customer details, and receive ticket confirmations. Built with HTML, CSS, and JavaScript, it offers a simple and efficient booking experience.
 - Whats the purpose
+To simplify and digitize bus seat reservation and booking.
 - What are key components
+Intercative seat selection, booking form and digital ticket generation.
 - What technology used and how it is used
+The Joy Bus Ticketing System uses HTML for structure, CSS for styling, and JavaScript for interactive features like seat selection and ticket popups.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multi-page responsive bus ticketing system  
+- Dynamic seat reservation system  
+- Customer information and ticket generation  
+- Digital payment placeholder  
+- Interactive UI for selecting seats and viewing bus details
 
 ### Technology
 <!-- TODO: List of Technology Used -->
